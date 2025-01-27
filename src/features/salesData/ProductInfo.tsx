@@ -5,7 +5,7 @@ import Card from "../../components/Card"
 function ProductInfo({ data }: { data: (typeof dataType)[0] }) {
   return (
     <Card className="basis-70 min-h-100% flex flex-col items-center">
-      <img src={data.image} alt={"Image of" + data.title} className="w-3/5" />
+      <img src={data.image} alt={"Image of" + data.title} className="w-3/5 pt-4" />
       <h2 className="text-[#384559] font-bold">{data.title}</h2>
       <h3 className="text-[#AEB9CE] w-4/6 text-sm text-center pb-4">
         {data.subtitle}
